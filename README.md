@@ -34,6 +34,9 @@ npm test
 /scan-node/test/index.test.js
 ```
 
+## Bonus
+- Setup Default NodeJs CI and Passed Tests on NodeJs [10.x, 12.x, 14.x, 15.x]
+
 ## License
 
 The Scan Node App is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
