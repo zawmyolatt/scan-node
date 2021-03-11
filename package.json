@@ -1,0 +1,24 @@
+{
+  "name": "scan-node",
+  "version": "1.0.0",
+  "description": "Node Js Application for scanning & matching files in directories",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -e 'require(\"./index\").init()'",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zawmyolatt/scan-node.git"
+  },
+  "author": "Zaw Myo Latt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zawmyolatt/scan-node/issues"
+  },
+  "homepage": "https://github.com/zawmyolatt/scan-node#readme",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1"
+  }
+}
