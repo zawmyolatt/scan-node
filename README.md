@@ -14,13 +14,16 @@ npm install
 - Run the Application
 ```
 cd scan-node/
-npm start  #Note: will run for default path('./demo-files'), default filter('TODO') and default extension('.js')
+npm start
 ```
+- (Note: This will run for default path('./demo-files'), default filter('TODO') and default extension('.js'))
+
 - Run Custom File Scan
 ```
 cd scan-node/
-node -e 'require("./index").searchFilesInDirectoryAsync("./", "TODO", ".js")'  #Note: the default parameter can change in here.
+node -e 'require("./index").searchFilesInDirectoryAsync("./", "TODO", ".js")' 
 ```
+- (Note: the default parameter can change in here.)
 
 ## Tests
 - Run the unit tests
